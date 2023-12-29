@@ -1,0 +1,121 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row-3 {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+  padding: 0 5%;
+}
+
+.row-2 {
+  float: left;
+  width: 50%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+  height: 50px;
+ background-color: white;
+}
+
+nav ul li {
+  float:left;
+  width: 10%;
+}
+
+li a {
+  color: #000;
+}
+
+main {
+  background-image: url(../assets/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 1000px;
+  height: 1000px;
+  padding-left: 10%;
+  color: white;
+}
+
+main > h1 {
+  width: 60%;
+  padding-top: 15%;
+  font-size: 96px;
+  margin: 0;
+}
+
+main > a {
+  background: black;
+  color: white;
+  padding: 20px;
+  padding-top: 10px;
+}
+
+main > p {
+  letter-spacing: 4px;
+}
+aside {
+  margin-top: 155px;
+  background: black;
+  padding: 20px;
+  width: 15%;
+  height: 250px;
+}
+
+aside span {
+  color: white;
+  font-size: 32px;
+}
+
+aside a {
+  background-color: white;
+  padding: 15px;
+  margin-top: 200px;
+  color: black;
+}
+
+
+
+.features {
+  padding: 5% 10%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
