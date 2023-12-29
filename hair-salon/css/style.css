@@ -45,6 +45,7 @@ a {
 .row-2 {
   float: left;
   width: 50%;
+  padding-top: 3%;
 }
 
 
@@ -111,10 +112,62 @@ aside a {
   color: black;
 }
 
-
-
 .features {
   padding: 5% 10%;
+  height: 500px;
+}
+
+.videoSection {
+background-color: lightgray;
+width: 100%;
+height: 500px;
+font-size: 20px;
+}
+
+.video img {
+  height: 90%;
+}
+
+.words {
+  padding-left: 20%;
+}
+
+.words h4 {
+  font-size: 42px;
+  width: 80%;
+ margin: 0 auto;
+ padding-bottom: 10px;
+}
+
+.words p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 12 px;
+  padding-bottom: 75px;
+}
+
+.words > a {
+  padding: 5%;
+  background-color: black;
+  color: white;
+  margin-left: 10%;
+}
+
+.stylists {
+  padding:5% 0;
+  width: 100%;
+}
+
+.stylists h5, .stylists p {
+  color: white;
+  background-color: black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 3px;
+}
+
+.stylists h5 {
+  font-size: 24px;
 }
 /******************************************
 /* ADDITIONAL STYLES
