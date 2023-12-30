@@ -23,7 +23,7 @@
 
 body {
   text-transform: uppercase;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 100;
 }
 
@@ -89,7 +89,7 @@ main > a {
   padding-top: 10px;
 }
 
-main > p {
+main > p, main a {
   letter-spacing: 4px;
 }
 aside {
@@ -169,6 +169,69 @@ font-size: 20px;
 .stylists h5 {
   font-size: 24px;
 }
+
+.colorOffer {
+  background-image: url(../assets/Promo-Banner-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    height: 500px;
+    background-position: center;
+    margin-top: 30%;
+}
+
+.colorOffer > * {
+  padding-left:15%;
+  width: 45%;
+}
+
+.colorOffer h4 {
+  padding-top: 5%;
+  font-size:22px;
+}
+
+.colorOffer p {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.colorOffer span {
+  font-weight: 700;
+}
+
+.colorOffer a {
+    padding: 1%;
+      background-color: black;
+      color: white;
+      margin-left: 15%;
+      letter-spacing: 2px;
+}
+
+.lookbook section {
+  height: 250px;
+}
+
+.lookbook h4 {
+ text-align: center;
+ font-size: 40px;
+ letter-spacing: 1px;
+
+}
+
+.lookbook > section {
+  float: left;
+  width: 33.3333%;
+}
+
+.lookbook img {
+  width: 100%;
+  padding: 0 5%;
+}
+
+
+
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
