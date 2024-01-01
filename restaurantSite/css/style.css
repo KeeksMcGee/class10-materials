@@ -21,21 +21,219 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+ul {
+  list-style: none;
+}
 
+a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+
+
+header nav ul {
+  padding-left: 55%;
+}
+
+header nav ul li{
+  float: left;
+  width: 10%;
+} 
+
+main {
+  padding-left: 10%;
+  padding-top: 10%;
+  background-image: url('../assets/brooke-lark-08bOYnH_r_E-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  height: 600px;
+}
+
+main section {
+  width: 40%;
+}
+
+main input, main button {
+  float: left;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+button {
+  color: white;
+  background-color: orange;
+  border: 0px solid white;
+  padding: 1.3%;
+  width: 20%;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+input {
+  padding: 1%;
+}
+
+.ourStory {
+  padding-top: 3%;
+  padding-left: 45%;
+  padding-right: 10%;
+  background-repeat: no-repeat;
+  background-image:url(../assets/brooke-lark-pie.jpg),url(../assets/olga-kudriavtseva-s8J1DlRroo0-unsplash.jpg);
+  background-position: bottom left, bottom right;
+  background-size: 50% 175%, 50% 250%;
+  height: 500px;
+}
+
+.ourStory h3, .orderNow h2,
+.bookUs h3, .testimonials h5 {
+  color: orange;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.ourStory h4 {
+  font-size: 50px;
+  margin: 5px 0;
+  width: 50%;
+}
+
+.ourStory p {
+  width: 55%;
+  font-family: sans-serif;
+}
+
+.ourStory a {
+    color: white;
+      background-color: orange;
+      border: 0px solid white;
+      padding: 1.3%;
+      width: 20%;
+      border-radius: 5px;
+      font-family: sans-serif;
+}
+
+.orderNow {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.orderNow h3,
+.bookUs h2,
+.testimonials h6
+{
+  font-size: 50px;
+    margin: 5px 0;
+}
+
+
+.navContainer {
+  height: 55px;
 
 }
 
-footer {
+.navContainer ul {
+padding-left: 33%;
 
 }
+
+.navContainer nav ul li {
+float: left;
+width: 10%;
+padding-left: 5px;
+border-bottom: 2px solid lightgray;
+font-family: sans-serif;
+padding-bottom: 15px;
+}
+
+.navContainer a {
+  color: black;
+}
+
+.navContainer a:hover {
+  color: orange;
+}
+
+.navContainer nav ul li:hover{
+  border-bottom: 2px solid orange;
+}
+
+
+
+.image4 img {
+  width:200px;
+  height:200px;
+}
+
+
+
+.bookUs {
+  text-align: center;
+}
+
+.bookUs section {
+  float:left;
+  width: 50%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+p.phoneNum {
+  color: orange;
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+section.imgContainer {
+  width: 100%
+}
+
+.bookUs img {
+  height: 600px;
+  width: 600px;
+  padding: 0 auto;
+}
+
+section.testimonials {
+  height: 500px;
+  padding-top: 30px;
+}
+
+.testimonials img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+
+.bookUs p, 
+.testimonials span {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.testimonials p {
+width: 40%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
